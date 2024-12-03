@@ -1,5 +1,5 @@
-const num1 =prompt("Inserisci il primo numero");
-const num2 =prompt("Inserisci il secondo numero");
+const num1 =Number(prompt("Inserisci il primo numero"));
+const num2 =Number(prompt("Inserisci il secondo numero"));
 
 if (num1 > num2){
     alert("Il maggiore è num1");
